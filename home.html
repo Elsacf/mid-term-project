@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>HTML</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Circle Landing Page</title>
+  <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="navbar">
-        <img class="logo" src="">
+        <img src="images/logos/circle.svg" alt="Circle Logo"/>
         <div class="menu">
           <ul>
             <li a href="#">Home</li>
@@ -17,28 +19,35 @@
             <li a href="#">Services</li>
           </ul>
         </div> 
-        <button type="button">Contact Us</button>
+        <a class="contact-button" href="#">Contact Us</a>
     </div>
     <div class="hero">
         <div class="claim">
             <h1>Empower your business with stunning design!</h1>
-            <p>
+            <p class="hero-text">
                 Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.
             </p>
-            <button type="button">Get in touch</button>
-            <a href="#">See our work</a>
+            <br><br>
+            <button class="get-in-touch" type="button">Get in touch</button>
+            <a class="our-work" href="#">See our work</a>
+        </div>
+        <div class="hero-images">
+            <img class="hero-image" src="images/hero-section/hero-image.png" alt="hero-image">
+            <!-- <img class="card-1" src="images/hero-section/card-1.png" alt="card-1">
+            <img class="card-2" src="images/hero-section/card-2.png" alt="card-2"> -->
         </div>
     </div>
 
     <div class="client">
-        <img class="logo" src="">
-        <img class="logo" src="">
-        <img class="logo" src="">
-        <img class="logo" src="">
-        <img class="logo" src="">
+        <img class="logo" name="airbnb-logo" src="images/logos/airbnb-logo.svg" alt="Airbnb logo">
+        <img class="logo" name="google-logo" src="images/logos/google-logo.svg" alt="Google logo">
+        <img class="logo" name="microsoft-logo" src="images/logos/microsoft-logo.svg" alt="Microsoft logo">
+        <img class="logo" name="fedex-logo" src="images/logos/fedex-logo.svg" alt="Fedex logo">
+        <img class="logo" name="amazon-logo" src="images/logos/amazon-logo.svg" alt="Amazon logo">
     </div>
 
     <div class="projects">
+        <h3>Recent Projects</h3>
         <div>
             <img class="logo" src="">
             <h4>Simplify</h4>
@@ -46,7 +55,7 @@
             <a href="#">Learn more</a>
         </div>
         <div>
-            <img class="logo" src="">
+            <img class="logo" src="#" alt>
             <h4>Dashcoin</h4>
             <p>Web Development</p>
             <a href="#">Learn more</a>
