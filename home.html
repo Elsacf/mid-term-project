@@ -24,8 +24,8 @@
     <div class="hero">
         <div class="claim">
             <h1>Empower your business with stunning design!</h1>
-            <p class="hero-text">
-                Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.
+            <p class="body-intro-text">
+                Circle is a digital design and development studio.<br>We design and develop astonishing websites and mobile apps.
             </p>
             <br><br>
             <button class="get-in-touch" type="button">Get in touch</button>
@@ -48,73 +48,101 @@
 
     <div class="projects">
         <h3>Recent Projects</h3>
-        <div>
-            <img class="logo" src="">
-            <h4>Simplify</h4>
-            <p>UI Design & App Development</p>
-            <a href="#">Learn more</a>
-        </div>
-        <div>
-            <img class="logo" src="#" alt>
-            <h4>Dashcoin</h4>
-            <p>Web Development</p>
-            <a href="#">Learn more</a>
-        </div>
-        <div>
-            <img class="logo" src="">
-            <h4>Vectorify</h4>
-            <p>User Experience Design</p>
-            <a href="#">Learn more</a>
+        <div class="projects-cards">
+            <div >
+                <img class="card" src="images/Projects-section/1.jpg">
+                <h4>Simplify</h4>
+                <p class="card-text">UI Design & App Development</p>
+                <br><br><br>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img class="card" src="images/Projects-section/2.jpg" alt>
+                <h4>Dashcoin</h4>
+                <p class="card-text">Web Development</p>
+                <br><br><br>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img class="card" src="images/Projects-section/3.jpg">
+                <h4>Vectorify</h4>
+                <p class="card-text">User Experience Design</p>
+                <br><br><br>
+                <a href="#">Learn more</a>
+            </div>
         </div>
     </div>
 
     <div class="testimonial">
-        <h2>Hear What Our Clients Have to Say</h2>
-        <p>"Circle helped us through every stage of our startup. We really enjoyed working with you"</p>
+        <div class="testimonial-text">
+            <h3 id="testimonial-title">Hear What Our Clients Have to Say</h3 >
+            <br><br>
+            <p class="testimonial-sentence">"Circle helped us through every stage of our startup.<br> We really enjoyed working with you"</p>
+            <br><br>
+            <div class="testimonial-client">
+                <div>
+                    <img class="kristin" src="images/testimonial-section/profile.png">
+                </div>
+                <div>
+                    <p class="testimonial-name">Kristin Watson</p>
+                    <p class="testimonial-company">Booking.com</p>
+            </div>
+            </div>
+        </div>
         <div>
-            <img class="kristin" src="">
-            <h4>Kristin Watson</h4>
-            <p>Booking.com</p>
+        
         </div>
     </div>
 
     <div class="services">
         <h4>Our Services</h4>
-        <div>
-            <img class="logo" src="">
+        <div class="cards-section">
+            <div class="services-card">
+            <img class="services-icon" src="images/services-section/1.svg">
             <h4>User Interface Design</h4>
             <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+            <br><br><br>
             <a href="#">Learn more</a>
-        </div>
-        <div>
-            <img class="logo" src="">
+            </div>
+            <div class="services-card">
+            <img class="services-icon" src="images/services-section/2.svg">
             <h4>User Experience Design</h4>
             <p>Circle always focuses on delivering the best user experience to your customers.</p>
+            <br><br><br>
             <a href="#">Learn more</a>
-        </div>
-        <div>
-            <img class="logo" src="">
+            </div>
+            <div class="services-card">
+            <img class="services-icon" src="images/services-section/3.svg">
             <h4>Application Development</h4>
             <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+            <br><br><br>
             <a href="#">Learn more</a>
+            </div>
         </div>
     </div>
 
     <div class="call-to-action">
         <h3>Do you have any questions?</h3>
-        <p>Let us help you!</p>
-
+        <p class="help">Let us help you!</p>
+        <form>
+            <input type="text" id="email-one" name="email" placeholder="Enter your email">
+            <input id="suscribe-button" type="submit" value="Suscribe">
+        </form>
     </div>
 
-    <footer>
-        <img class="logo" src="">
-        <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
-        <a href="#">Team</a>
-        <a href="#">Services</a>
-        <a href="#">About Us</a>
-        <a href="#">Press</a>
-        <a href="#">Projects</a>
-        <a href="#">Privacy Policy</a>
+    <footer class="footer">
+        <div>
+            <img class="logo" src="images/logos/circle.svg" alt="Circle Logo"/>
+            <p>2972 Westheimer Rd. Santa Ana,<br>Illinois 85486</p>
+        </div>
+        <div class="footer-links">
+            <div><a href="#">Team</a></div>
+            <div><a href="#">Services</a></div>
+            <div><a href="#">About Us</a></div>
+            <div><a href="#">Press</a></div>
+            <div><a href="#">Projects</a></div>
+            <div><a href="#">Privacy Policy</a></div>
+        </div>
     </footer>
 </body>
 </html>
