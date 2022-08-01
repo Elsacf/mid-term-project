@@ -3,7 +3,7 @@
     font-family: Roboto;
 }
 body{
-    width: 100%;
+    width: 1440px;
 }
 li{
     list-style-type: none;
@@ -14,7 +14,7 @@ li{
     padding-right: 20px;
 }
 h3{
-    font-family: Roboto Bold 700;
+    font-weight: 700;
     font-size: 40px;
 }
 .navbar {
@@ -55,7 +55,6 @@ h3{
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     gap: 0;
 }
@@ -64,47 +63,58 @@ h3{
     padding-top: auto;
     padding-bottom: auto;
     margin-top: 82px;
+    width: 530px;
 }
 h1 {
-    font-family: Roboto Bold 700;
+    font-weight: 700;
     font-size: 60px;
     line-height: 70,31px;
 }
-.body-intro-text {
-    font-family: Roboto Regular 400;
+
+.hero-text{
+    font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
-    padding-right: 95px;
-    position: relative;
 }
 .get-in-touch {
     width: 150px;
     height: 52px;
+    font-weight: 500;
+    font-size: 17px;
     background-color: #072ac8;
     color: white;
     border: none;
     margin-right: 30px;
 }
 .our-work {
-    font-family: Roboto Regular 500;
+    font-weight: 500;
     font-size: 17px;
     text-decoration: none;
     color: black;
 }
-.hero-image {
+.hero-images {
     width: 570px;
     height: 650px;
+    background-image: url("/images/hero-section/hero-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
 }
 .card-1 {
-    width: 190px;
-    height: 216px;
-    position: relative;
+    width: 285px;
+    height: 324px;
+    position: relative;;
 }
 .card-2 {
-    width: 190px;
-    height: 193px;
+    width: 285px;
+    height: 289px;
     position: relative;
+    align-self: flex-end;
+    border-style: solid;
+    border-width: 2px;
 }
 .client {
     width: 1100;
@@ -121,7 +131,7 @@ h1 {
     filter: grayscale();
 }
 .projects {
-    width: 100%;
+    width: 1100px;
     height: 561px;
     margin-top: 100px;
     margin-left: 170px;
@@ -138,27 +148,54 @@ h1 {
     width: 340px;
     height: 240px;
 }
+
+.body-intro-medium-text {
+    font-weight: 500;
+    font-size: 24px;
+}
+.headline-regular-text{
+    font-weight: 400;
+    font-size: 17px;
+}
+.project-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17;
+    color: #072ac8;
+}
+
 h4 {
     font-family: Roboto Bold 700;
     font-size: 24px;
 }
-.card-text {
-    font-family: Roboto Regular 400;
-    font-size: 17px;
-}
+
 .testimonial {
     width: 1320px;
     height: 622px;
-    background-color: #292e47;
     margin-top: 100px;
     margin-left: 60px;
-    margin-right: 60px;
+    padding-top: 51px;
+    padding-bottom: 73px;
+    padding-left: 63px;
+    padding-right: 72px;
+    background-color: #292e47;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 127px;
+}
+.column-one-memoji {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 258px;
+}
+
+.testimonial-text {
     padding-top: 120px;
-    padding-bottom: 120px;
-    padding-left: 350px;
-    padding-right: 349px;
     text-align: center;
 }
+
 #testimonial-title {
     color: white;
 }
@@ -176,8 +213,8 @@ h4 {
     flex-direction: row;
     gap: 5px;
     justify-content: center;
-    margin-left: 625px;
-
+    margin-top: 30px;
+    margin-left: 235px;
 }
 .kristin {
     width: 50px;
@@ -196,8 +233,19 @@ h4 {
     color: #f4f6fc;
     line-height: 15.23px;
 }
+.column-two-memoji {
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    gap: 258px;
+}
+
+.memoji {
+    width: 150px;
+    height: 150px;
+}
 .services {
-    width: 100%;
+    width: 1100px;
     height: 497px;
     margin-top: 200px;
     margin-left: 170px;
@@ -205,28 +253,64 @@ h4 {
 .cards-section {
     width: 1100px;
     height: 380px;
+    margin-top: 70px;
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 40px;
-    
 }
 .services-card {
     width: 340px;
     height: 380px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 20px;
 }
-.services-icon {
+#user-interface-icon {
     width: 80px;
     height: 80px;
+    border-radius: 50%;
+    background-color: #ecf7ff;
+    background-image: url("/images/services-section/1.svg");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#user-experience-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ecf7ff;
+    background-image: url("/images/services-section/2.svg");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#application-development-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ecf7ff;
+    background-image: url("/images/services-section/3.svg");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.body-intro-regular-text{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.services-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    color: #072ac8;
 }
 .call-to-action {
     width: 1320px;
     height: 500px;
     margin-top: 100px;
+    margin-left: 60px;
     background-color: #ffc600;
     padding-top: 137px;
     text-align: center;
