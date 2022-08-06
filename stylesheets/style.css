@@ -4,46 +4,50 @@
     font-family: Roboto;
 }
 body{
-    width: 1440px;
+    width: 100%;
 }
 .navbar {
-    width: 1100px;
-    height: 52px;
-    margin-top: 70px;
-    margin-left: 170px;
+    width: 76%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    gap: 0;
+}
+.menu {
+    width: 25%;
 }
 li{
     list-style-type: none;
     display: inline-flex;
-    font-family: Roboto Regular 400;
-    font-size: 17px;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-weight: 400;
+    font-size: 1em;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .contact-button {
-    width: 150px;
-    height: 62px;
+    width: 11%;
+    height: 60px;
     text-decoration: none;
     background-color: #072ac8;
     color: white;
+    font-weight: 500;
+    font-size: 1em;
     display: flex;
-    padding: 15px, 36px;
     align-items: center;
     justify-content: center;
 }
 .hero {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 170px;
-    margin-right: 170px;
-    width: 1100px;
-    height: 650px;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 76%;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -54,13 +58,11 @@ li{
     vertical-align: center;
     padding-top: auto;
     padding-bottom: auto;
-    margin-top: 82px;
-    width: 530px;
+    width: 50%;
 }
 h1 {
     font-weight: 700;
-    font-size: 60px;
-    line-height: 70,31px;
+    font-size: 3.75em;
     color: #292e47;
 }
 
@@ -69,66 +71,66 @@ h1 {
     font-size: 20px;
 }
 .get-in-touch {
-    width: 150px;
-    height: 52px;
+    width: 26%;
+    height: 3em;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1em;
     background-color: #072ac8;
     color: white;
     border: none;
-    margin-right: 30px;
+    margin-right: auto;
 }
 .our-work {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1em;
     text-decoration: none;
     color: black;
+    margin-left: 5%;
 }
 .hero-images {
-    width: 570px;
-    height: 650px;
+    width: 50%;
+    height: 40.6em;
     background-image: url("/images/hero-section/hero-image.png");
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: stretch;
-    gap: 40px;
 }
 .hero-two {
-    width: 285px;
-    height: 324px;
+    width: 45%;
+    height: 18em;
     position: relative;
 }
 .hero-three {
-    width: 285px;
+    width: 52%;
     height: 289px;
     position: relative;
     align-self: flex-end;
     flex-shrink: 0.5;
 }
 .client {
-    width: 1100;
-    height: 96;
+    width: 76%;
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 139px;
-    margin-left: 193px;
-    margin-right: 193px;
-    margin-top: 100px;
+    gap: 8%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6em;
 }
 .logo{
     filter: grayscale();
 }
 .projects {
-    width: 1100px;
+    width: 76%;
     height: 561px;
-    margin-top: 100px;
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-top: 6em;
+    margin-left: 12%;
 }
 h3{
     font-weight: 700;
@@ -138,66 +140,63 @@ h3{
 .projects-cards {
     position: relative;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: center;
-    gap: 40px;
+    gap: 3.4%;
+}
+.card {
+    width: 31%;
+    height: 28em;
+    display: flex;
+    flex-direction: column;
 }
 .card-image {
-    width: 340px;
-    height: 240px;
-}
-
-.body-intro-medium-text {
-    font-weight: 500;
-    font-size: 24px;
-    color: #292e47;
+    width: 100%;
+    height: 15em;
 }
 .card-title{
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5px;
     color: #292e47;
 }
 .card-text {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1em;
     color: #6b708d;
 }
 .card-link {
     text-decoration: none;
     font-weight: 400;
-    font-size: 17;
+    font-size: 1;
     color: #072ac8;
 }
 
 h4 {
     font-family: Roboto Bold 700;
-    font-size: 24px;
+    font-size: 1.5px;
 }
 
 .testimonial {
-    width: 1320px;
-    height: 622px;
-    margin-top: 100px;
-    margin-left: 60px;
-    padding-top: 51px;
-    padding-bottom: 73px;
-    padding-left: 63px;
-    padding-right: 72px;
+    width: 92%;
+    height: 39em;
+    margin-top: 6em;
+    margin-left: 8.3%;
     background-color: #292e47;
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 127px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 9.6%;
 }
 .column-one-memoji {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 258px;
+    gap: 16em;
 }
 
 .testimonial-text {
-    padding-top: 120px;
     text-align: center;
 }
 
@@ -205,44 +204,48 @@ h4 {
     color: white;
 }
 .testimonial-sentence {
-    font-family: Roboto Medium 500;
-    font-size: 24px;
+    font-weight: 500;
+    font-size: 1.5em;
     color: #ffc600;
-    line-height: 38,4px;
 }
 .testimonial-client {
-    width: 171px;
-    height: 50px;
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
     justify-content: center;
-    margin-top: 30px;
-    margin-left: 235px;
 }
 .kristin {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
 }
+.testimonial-data {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+.testimonial-picture {
+    align-self: center;
+}
 .testimonial-name {
-    font-family: Roboto Medium 500;
+    font-weight: 500;
     font-size: 17px;
     color: #a2d6f9;
-    line-height: 17px;
 }
 .testimonial-company {
-    font-family: Roboto Regular 400;
-    font-size: 17px;
+    font-weight: 400;
+    font-size: 1em;
     color: #f4f6fc;
-    line-height: 15.23px;
 }
 .column-two-memoji {
     position: relative;
     display: flex;
     flex-direction:column;
-    gap: 258px;
+    gap: 16em;
 }
 
 .memoji {
@@ -250,26 +253,30 @@ h4 {
     height: 150px;
 }
 .services {
-    width: 1100px;
+    width: 76%;
     height: 497px;
-    margin-top: 200px;
-    margin-left: 170px;
+    margin-top: 12em;
+    margin-left: 12%;
 }
 .cards-section {
-    width: 1100px;
     height: 380px;
-    margin-top: 70px;
+    margin-top: 4.4em;
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    justify-content: center;
+    gap: 3.4%;
 }
 .services-card {
-    width: 340px;
+    width: 31%;
     height: 380px;
     padding-bottom: 30px;
-    padding-right: 20px;
+    padding-right: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
 #user-interface-icon {
     width: 80px;
     height: 80px;
@@ -300,36 +307,44 @@ h4 {
     background-position: center;
     background-repeat: no-repeat;
 }
-.body-intro-regular-text{
+.services-card-title {
+    font-weight: 500;
+    font-size: 1.5px;
+    color: #292e47;
+}
+.services-card-text{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.3em;
     color: #6b708d;
 }
 
 .services-link {
     text-decoration: none;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1em;
     color: #072ac8;
 }
 .call-to-action {
-    width: 1320px;
-    height: 500px;
-    margin-top: 100px;
-    margin-left: 60px;
+    width: 92%;
+    height: 31.3em;
+    margin-top: 12em;
+    margin-left: 8.3%;
     background-color: #ffc600;
-    padding-top: 137px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #292e47;
 }
 .help {
-    font-family: Roboto Regular 400;
-    font-size: 20px;
-    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 1.3em;
 }
-
+.suscription {
+    margin: auto;
+}
 #email-one {
-    width: 393px;
+    width: 50%;
     height: 80px;
     font-weight: 400;
     font-size: 17px;
@@ -343,23 +358,24 @@ h4 {
     border: none;
 }
 #suscribe-button {
-    width: 198px;
+    width: 30%;
     height: 80px;
     background-color: #072ac8;
     color: #f4f6fc;
-    font-family: Roboto Medium 500;
-    font-size: 17px;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
 }
 .footer {
-    width: 1100px;
+    width: 76%;
     height: 112px;
-    margin-top: 100px;
-    margin-left: 170px;
+    margin-top: 12em;
+    margin-left: auto;
     margin-bottom: 100px;
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 405px;
+    gap: 35%;
     color: #6b708d;
 }
 .footer-logo {
@@ -485,112 +501,4 @@ form p {
     font-weight: 500;
     font-size: 17px;
     line-height: 25px;
-}
-@media screen and (max-width: 480px) {
-    body{
-        width: 440px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .navbar {
-        width: 440px;
-        height: 520px;
-        margin-top: 20px;
-        margin-left: 20px;
-        position: center;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: flex-start;
-    }
-    li{
-        list-style-type: none;
-        display: inherit;
-        font-family: Roboto Regular 400;
-        font-size: 17px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .contact-button {
-        width: 150px;
-        height: 52px;
-        text-decoration: none;
-        background-color: #072ac8;
-        color: white;
-        display: flex;
-        padding: 15px, 36px;
-        align-items: center;
-        justify-content: center;
-    }
-    .hero {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 440px;
-        height: 250px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0;
-    }
-    .claim {
-        vertical-align: center;
-        padding-top: auto;
-        padding-bottom: auto;
-        width: 440px;
-    }
-    h1 {
-        font-weight: 700;
-        font-size: 60px;
-        line-height: 70,31px;
-        color: #292e47;
-    }
-    .hero-text{
-        font-weight: 400;
-        font-size: 20px;
-    }
-    .get-in-touch {
-        width: 200px;
-        height: 52px;
-        font-weight: 500;
-        font-size: 17px;
-        background-color: #072ac8;
-        color: white;
-        border: none;
-        margin-right: 20px;
-    }
-    .our-work {
-        font-weight: 500;
-        font-size: 17px;
-        text-decoration: none;
-        color: black;
-    }
-    .hero-images {
-        width: 440px;
-        height: 500px;
-        background-image: url("/images/hero-section/hero-image.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: stretch;
-        gap: 40px;
-    }
-    .hero-two {
-        width: 285px;
-        height: 126px;
-        position: relative;
-    }
-    .hero-three {
-        width: 110px;
-        height: 112px;
-        position: relative;
-        align-self: flex-end;
-        flex-shrink: 0.5;
-    }
 }
