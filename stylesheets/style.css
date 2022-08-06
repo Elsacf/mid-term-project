@@ -20,27 +20,27 @@ body{
     gap: 0;
 }
 .menu {
-    width: 25%;
+    width: 50%;
+    display: inline-block;
 }
 li{
     list-style-type: none;
     display: inline-flex;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.3em;
     padding-left: 2%;
     padding-right: 2%;
 }
 .contact-button {
-    width: 11%;
+    width: 15%;
     height: 60px;
     text-decoration: none;
     background-color: #072ac8;
     color: white;
     font-weight: 500;
     font-size: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    padding-top: 19px;
 }
 .hero {
     margin-top: 6em;
@@ -116,7 +116,7 @@ h1 {
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 8%;
+    gap: 12%;
     align-items: center;
     justify-content: center;
     margin-left: auto;
@@ -130,11 +130,12 @@ h1 {
     width: 76%;
     height: 561px;
     margin-top: 6em;
-    margin-left: 12%;
+    margin-left: auto;
+    margin-right: auto;
 }
 h3{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5em;
     color: #292e47;
 }
 .projects-cards {
@@ -149,14 +150,18 @@ h3{
     height: 28em;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .card-image {
     width: 100%;
     height: 15em;
 }
+.card-content {
+    margin-left: 5%;
+}
 .card-title{
     font-weight: 500;
-    font-size: 1.5px;
+    font-size: 1.5em;
     color: #292e47;
 }
 .card-text {
@@ -169,6 +174,7 @@ h3{
     font-weight: 400;
     font-size: 1;
     color: #072ac8;
+    margin-left: 5%;
 }
 
 h4 {
@@ -180,7 +186,8 @@ h4 {
     width: 92%;
     height: 39em;
     margin-top: 6em;
-    margin-left: 8.3%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #292e47;
     position: relative;
     display: flex;
@@ -219,16 +226,6 @@ h4 {
     width: 75px;
     height: 75px;
     border-radius: 50%;
-}
-.testimonial-data {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0;
-}
-.testimonial-picture {
     align-self: center;
 }
 .testimonial-name {
@@ -272,6 +269,7 @@ h4 {
     height: 380px;
     padding-bottom: 30px;
     padding-right: 6%;
+    padding-left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -328,7 +326,8 @@ h4 {
     width: 92%;
     height: 31.3em;
     margin-top: 12em;
-    margin-left: 8.3%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #ffc600;
     text-align: center;
     display: flex;
@@ -345,21 +344,21 @@ h4 {
 }
 #email-one {
     width: 50%;
-    height: 80px;
+    height: 5em;
     font-weight: 400;
-    font-size: 17px;
-    margin-left: 335px;
-    padding-left: 70px;
+    font-size: 1em;
+    margin-left: 55%;
+    padding-left: 15%;
     background-image: url("/images/newsletter/mail.svg");
     background-size: 30px 30px;
-    background-position: 30px 25px;
+    background-position: 15% 50%;
     background-color: white;
     background-repeat: no-repeat;
     border: none;
 }
 #suscribe-button {
     width: 30%;
-    height: 80px;
+    height: 5em;
     background-color: #072ac8;
     color: #f4f6fc;
     font-weight: 500;
@@ -368,50 +367,54 @@ h4 {
 }
 .footer {
     width: 76%;
-    height: 112px;
+    height: 7em;
     margin-top: 12em;
     margin-left: auto;
-    margin-bottom: 100px;
+    margin-right: auto;
+    margin-bottom: 6.2em;
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 35%;
+    gap: 25%;
     color: #6b708d;
 }
 .footer-logo {
-    width: 98px;
-    height: 30px;
+    width: 6.1em;
+    height: 1.8em;
 }
 .address {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1em;
     color: #6b708d;
 }
 .footer-links {
+    width: 30%;
     position: relative;
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 50px;
+    gap: 3.1em;
 }
 .link-in-footer {
     text-decoration: none;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1em;
     color: #6b708d;
 }
 .project-section {
-    margin-left: 170px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 146px;
-    width: 1100px;
+    width: 76%;
 }
 .data-project {
+    width: 100%;
     margin-top: 0;
     display: flex;
     flex-direction: row;
-    gap: 315px;
+    flex-wrap: wrap;
+    gap: 55%;
 }
 .category{
-    width: 530px;
     font-weight: 500;
     font-size: 24;
     color: #6b708d;
@@ -421,25 +424,27 @@ h4 {
     font-weight: 400;
     font-size: 20;
     color: #292e47;
+    align-self: flex-end;
 }
 .cover-image {
-    width: 1100px;
+    width: 100%;
     height: 444px;
     margin-top: 80px;
 }
 .simplify-text {
     margin-top: 70px;
-    width: 1100px;
-    height: 420px;
+    width: 100%;
     font-weight: 400;
     font-size: 20;
+    line-height: 1.5em;
     color: #6b708d;
 }
 .other-projects {
-    width: 1100px;
+    width: 76%;
     height: 561px;
-    margin-top: 70px;
-    margin-left: 170px;
+    margin-top: 12em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .contact-form {
     width: 1100px;
@@ -501,4 +506,109 @@ form p {
     font-weight: 500;
     font-size: 17px;
     line-height: 25px;
+}
+@media screen and (max-width: 480px) {
+    .navbar {
+        width: 76%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .contact-button {
+        width: 40%;
+        height: 60px;
+        font-weight: 500;
+        font-size: 1em;
+    }
+    .hero-images {
+        display: none;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    .claim {
+        width: 100%;
+    }
+    .client {
+        width: 76%;
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 12%;
+        grid-row-gap: 12%;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6em;
+    }
+    h3{
+        font-weight: 700;
+        font-size: 2em;
+        color: #292e47;
+    }
+    .projects {
+        height: 84em;
+    }
+    .projects-cards {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2.4%;
+    }
+    .card {
+        width: 76%;
+    }
+    .column-one-memoji {
+        display: none;
+    }
+    .column-two-memoji {
+        display: none;
+    }
+    .testimonial {
+        height: 25em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .testimonial-sentence {
+        font-size: 1em;
+    }
+    .services {
+        height: 78.5em;
+    }
+    .cards-section {
+        width: 100%;
+        height: 71.2em;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3.4%;
+    }
+    .services-card {
+        width: 100%;
+        padding-right: 6%;
+        padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20%;
+    }
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+        width: 50%;
+    }
 }
