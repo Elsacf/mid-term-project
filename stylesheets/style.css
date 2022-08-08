@@ -25,7 +25,7 @@ body{
 }
 li{
     list-style-type: none;
-    display: inline-flex;
+    display: inline-block;
     font-weight: 400;
     font-size: clamp(17px);
     padding-left: 2%;
@@ -48,7 +48,7 @@ li{
     margin-left: auto;
     margin-right: auto;
     width: 76%;
-    height: 45vw;
+    height: max(45vw);
     position: relative;
     display: flex;
     flex-direction: row;
@@ -279,32 +279,25 @@ h4 {
     flex-direction: column;
     justify-content: space-around;
 }
-
-#user-interface-icon {
+.services-icon{
     width: 5.5vw;
     height: 5.5vw;
     border-radius: 50%;
     background-color: #ecf7ff;
+}
+#user-interface-icon {
     background-image: url("/images/services-section/1.svg");
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
 }
 #user-experience-icon {
-    width: 5.5vw;
-    height: 5.5vw;
-    border-radius: 50%;
-    background-color: #ecf7ff;
     background-image: url("/images/services-section/2.svg");
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
 }
 #application-development-icon {
-    width: 5.5vw;
-    height: 5.5vw;
-    border-radius: 50%;
-    background-color: #ecf7ff;
     background-image: url("/images/services-section/3.svg");
     background-size: 70%;
     background-position: center;
@@ -518,60 +511,99 @@ form p {
 @media screen and (max-width: 480px) {
     .navbar {
         width: 76%;
-        margin-top: 5%;
+        height: 40%;
+        margin-top: 2vw;
         margin-left: auto;
         margin-right: auto;
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         gap: 0;
+    }
+    .menu{
+        display: block;
+    }
+    li{
+        display: block;
     }
     .contact-button {
         width: 40%;
-        font-weight: 500;
-        font-size: 1em;
+        height: 25%;
+    }
+    .hero{
+        width: 76%;
+        height: max(45vw, 30%);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .hero-images {
         display: none;
     }
     h1 {
-        font-size: 2.5em;
+        font-size: 20.8px;
+        text-align: center;
     }
     .claim {
         width: 100%;
+        text-align: center;
     }
     .client {
         width: 76%;
+        height: 80px;
         position: relative;
         display: grid;
         grid-template-columns: auto auto;
-        grid-column-gap: 12%;
-        grid-row-gap: 12%;
+        grid-column-gap: 40%;
+        grid-row-gap: 10%;
         align-items: center;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 6em;
+        margin-bottom: 20px;
+    }
+    .logo{
+        width: 50px;
+        height: 17px;
+    }
+    .projects {
+        margin-top: 20px;
+        height: 850px;
+        margin-bottom: 20px;
     }
     h3{
         font-weight: 700;
-        font-size: 2em;
+        font-size: 18px;
         color: #292e47;
-    }
-    .projects {
-        height: 84em;
+        margin-bottom: 10px;
     }
     .projects-cards {
+        margin-top: 20px;
+        width: 100%;
+        height: 800px;
         position: relative;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         gap: 2.4%;
+        align-items: center;
     }
     .card {
         width: 76%;
+        height: 2000px;
+    }
+    .card-image{
+        width: 250px;
+        height: 150px;
+    }
+    .testimonial {
+        height: 15em;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 20px;
     }
     .column-one-memoji {
         display: none;
@@ -579,33 +611,35 @@ form p {
     .column-two-memoji {
         display: none;
     }
-    .testimonial {
-        height: 25em;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
     .testimonial-sentence {
         font-size: 1em;
     }
     .services {
-        height: 78.5em;
+        height: 45em;
     }
     .cards-section {
         width: 100%;
-        height: 71.2em;
+        height: 40em;
+        margin-top: 20px;
         position: relative;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         justify-content: center;
         gap: 3.4%;
     }
     .services-card {
         width: 100%;
+        height: 20em;
         padding-right: 6%;
         padding-left: 5%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: unset;
+    }
+    .services-icon{
+        width: 40px;
+        height: 40px;
     }
     .footer {
         flex-direction: column;
@@ -619,6 +653,14 @@ form p {
         width: 50%;
     }
     .other-projects {
-        height: 105em;
+        margin-top: 20px;
+        height: 850px;
+        margin-bottom: 20px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        height: 25em;
+        gap: 0;
     }
 }
