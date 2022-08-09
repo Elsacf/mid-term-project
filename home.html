@@ -14,18 +14,18 @@
 
   <body>
     <div class="navbar">
-      <img
+      <img class="navbar-logo"
         src="images/logos/circle.svg"
         alt="Circle Logo"
       />
       <div class="menu">
         <ul>
-          <li a href="#">Home</li>
-          <li a href="#">Projects</li>
-          <li a href="#">Services</li>
+          <li><a href="home.html" class="menu-link">Home</a></li>
+          <li><a href="projects.html" class="menu-link">Projects</a></li>
+          <li><a href="#services" class="menu-link">Services</a></li>
         </ul>
       </div>
-      <a class="contact-button" href="#">Contact Us</a>
+      <a class="contact-button" href="contact.html">Contact Us</a>
     </div>
     <div class="hero">
       <div class="claim">
@@ -34,9 +34,9 @@
           Circle is a digital design and development studio.<br />We design and
           develop astonishing websites and mobile apps.
         </p>
-        <br /><br />
-        <button class="get-in-touch" type="button">Get in touch</button>
-        <a class="our-work" href="#">See our work</a>
+        <br /><br class="claim-break"/>
+        <button id="tch" class="get-in-touch" type="button">Get in touch</button>
+        <a class="our-work" href="#projects">See our work</a>
       </div>
       <div class="hero-images">
         <img
@@ -85,7 +85,7 @@
       />
     </div>
 
-    <div class="projects">
+    <div id="projects" class="projects">
       <h3>Recent Projects</h3>
       <div class="projects-cards">
         <div class="card">
@@ -94,7 +94,7 @@
             <p class="card-title">Simplify</p>
             <p class="card-text">UI Design & App Development</p>
           </div>
-          <a class="card-link" href="#">Learn more</a>
+          <a class="card-link" href="projects.html">Learn more</a>
         </div>
         <div class="card">
           <img class="card-image" src="images/Projects-section/2.jpg" alt />
@@ -142,7 +142,7 @@
         </div>
     </div>
 
-    <div class="services">
+    <div id="services" class="services">
       <h3>Our Services</h3>
       <div class="cards-section">
         <div class="services-card">
@@ -175,17 +175,18 @@
       </div>
     </div>
 
-    <div class="call-to-action">
+    <div id="call-to-action" class="call-to-action">
       <h3>Do you have any questions?</h3>
       <p class="help">Let us help you!</p>
       <div class="suscription-form">
-        <form class="suscription">
+        <form id="suscription">
           <input
             type="text"
             id="email-one"
             name="email"
-            placeholder="Enter your email"
+            placeholder="Enter your email" required
           />
+          <br class="form-line">
           <input id="suscribe-button" type="submit" value="Suscribe" />
         </form>
       </div>
@@ -211,5 +212,6 @@
         <div><a class="link-in-footer" href="#">Privacy Policy</a></div>
       </div>
     </footer>
+    <script src="/javascript/index.js"></script>
   </body>
 </html>
