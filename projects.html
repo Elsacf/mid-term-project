@@ -9,7 +9,7 @@
 
   <body>
     <div class="navbar">
-      <img src="images/logos/circle.svg" alt="Circle Logo" />
+      <img class="navbar-logo" src="images/logos/circle.svg" alt="Circle Logo" />
       <div class="menu">
         <ul>
           <li><a href="home.html" class="menu-link">Home</a></li>
@@ -83,17 +83,17 @@
       </div>
     </div>
 
-    <div class="call-to-action">
+    <div id="call-to-action" class="call-to-action">
       <h3>Do you have any questions?</h3>
       <p class="help">Let us help you!</p>
-      <form>
+      <form id="suscription">
         <input
           type="text"
-          id="email-one"
+          id="emailOne"
           name="email"
           placeholder="Enter your email"
         />
-        <input id="suscribe-button" type="submit" value="Suscribe" />
+        <input id="suscribeButton" type="submit" value="Suscribe" />
       </form>
     </div>
 
@@ -117,5 +117,6 @@
         <div><a class="link-in-footer" href="#">Privacy Policy</a></div>
       </div>
     </footer>
+    <script src="/javascript/index.js"></script>
   </body>
 </html>

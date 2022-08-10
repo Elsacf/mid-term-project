@@ -633,18 +633,17 @@ form p {
     font-weight: 700;
     font-size: 2.3em;
     color: #292e47;
-    margin-top: 2em;
     text-align: center;
   }
   .projects {
     width: 76%;
-    height: 53em;
-    margin-left: auto;
-    margin-right: auto;
+    height: 60em;
+    margin-top: 5em;
+    margin-left: 0.3em;
   }
   .projects-cards {
     width: 100%;
-    height: 50.5em;
+    height: 53.5em;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -654,13 +653,12 @@ form p {
     margin-bottom: 1.5em;
     margin-top: 0%;
     margin-left: auto;
-    margin-right: 0%;
+    margin-right: auto;
   }
   .card {
     width: 76%;
-    height: 17em;
+    height: 20em;
     justify-content: space-around;
-    align-self: center;
   }
   .card-image {
     width: 15.6em;
@@ -668,8 +666,8 @@ form p {
     align-self: center;
   }
   .card-content{
-    margin-left: auto;
-    margin-right: auto;
+    height: 5em;
+    text-align: center;
   }
   .card-title{
     font-size: 1.5em;
@@ -678,6 +676,9 @@ form p {
   }
   .card-text{
     margin-top: 0%;
+  }
+  .card-link{
+    text-align: center;
   }
   .testimonial {
     height: 23em;
@@ -699,12 +700,12 @@ form p {
     font-size: 1em;
   }
   .services {
-    height: 55em;
+    height: 63em;
     margin-top: 2em;
   }
   .cards-section {
     width: 100%;
-    height: 49em;
+    height: 57em;
     margin-top: 2.5em;
     position: relative;
     display: flex;
@@ -719,7 +720,7 @@ form p {
     padding-left: 5%;
     display: flex;
     flex-direction: column;
-    justify-content: unset;
+    text-align: center;
   }
   .services-card-title{
     font-size: 1.5em;
@@ -739,14 +740,15 @@ form p {
     justify-content: center;
   }
   .suscription-form {
-    height: 5em;
+    height: 6em;
+    width: 20em;
     margin-top: 0%;
   }
   #suscription {
     height: 4.4em;
   }
   #emailOne {
-    width: 50%;
+    width: 60%;
     height: 1.5em;
     margin-left: auto;
     margin-right: auto;
@@ -755,8 +757,9 @@ form p {
     display: static;
   }
   #suscribeButton {
-    width: 50%;
+    width: 60%;
     height: 1.5em;
+    margin-top: 0.5em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -776,9 +779,9 @@ form p {
     gap: 0.5em;
   }
   .other-projects {
-    margin-top: 1.5em;
-    height: 53em;
-    margin-bottom: 1.5em;
+    margin-top: 5em;
+    height: 60em;
+    margin-left: 1em;
   }
   form {
     display: flex;
