@@ -14,7 +14,8 @@
 
   <body>
     <div class="navbar">
-      <img class="navbar-logo"
+      <img
+        class="navbar-logo"
         src="images/logos/circle.svg"
         alt="Circle Logo"
       />
@@ -34,8 +35,10 @@
           Circle is a digital design and development studio.<br />We design and
           develop astonishing websites and mobile apps.
         </p>
-        <br /><br class="claim-break"/>
-        <button id="tch" class="get-in-touch" type="button">Get in touch</button>
+        <br /><br class="claim-break" />
+        <button id="tch" class="get-in-touch" type="button">
+          Get in touch
+        </button>
         <a class="our-work" href="#projects">See our work</a>
       </div>
       <div class="hero-images">
@@ -116,30 +119,30 @@
     </div>
 
     <div class="testimonial">
-        <div class="column-one-memoji">
-          <img class="memoji" src="images/testimonial-section/memoji-1.png" />
-          <img class="memoji" src="images/testimonial-section/memoji-3.png" />
-        </div>
-        <div class="testimonial-text">
-          <h3 id="testimonial-title">Hear What Our Clients Have to Say</h3>
-          <p class="testimonial-sentence">
+      <div class="column-one-memoji">
+        <img class="memoji" src="images/testimonial-section/memoji-1.png" />
+        <img class="memoji" src="images/testimonial-section/memoji-3.png" />
+      </div>
+      <div class="testimonial-text">
+        <h3 id="testimonial-title">Hear What Our Clients Have to Say</h3>
+        <p class="testimonial-sentence">
           "Circle helped us through every stage of our startup.<br />
           We really enjoyed working with you"
-          </p>
-          <div class="testimonial-client">
-            <div class="testimonial-picture">
-              <img class="kristin" src="images/testimonial-section/profile.png" />
-            </div>
-            <div class="testimonial-data">
-              <p class="testimonial-name">Kristin Watson</p>
-              <p class="testimonial-company">Booking.com</p>
-            </div>
+        </p>
+        <div class="testimonial-client">
+          <div class="testimonial-picture">
+            <img class="kristin" src="images/testimonial-section/profile.png" />
+          </div>
+          <div class="testimonial-data">
+            <p class="testimonial-name">Kristin Watson</p>
+            <p class="testimonial-company">Booking.com</p>
           </div>
         </div>
-        <div class="column-two-memoji">
-          <img class="memoji" src="images/testimonial-section/memoji-2.png" />
-          <img class="memoji" src="images/testimonial-section/memoji-4.png" />
-        </div>
+      </div>
+      <div class="column-two-memoji">
+        <img class="memoji" src="images/testimonial-section/memoji-2.png" />
+        <img class="memoji" src="images/testimonial-section/memoji-4.png" />
+      </div>
     </div>
 
     <div id="services" class="services">
@@ -149,8 +152,8 @@
           <div id="user-interface-icon" class="services-icon"></div>
           <p class="services-card-title">User Interface Design</p>
           <p class="services-card-text">
-            Circle provides you with a stunning user interface design that
-            is accessible to everyone.
+            Circle provides you with a stunning user interface design that is
+            accessible to everyone.
           </p>
           <a class="services-link" href="#">Learn more</a>
         </div>
@@ -158,8 +161,8 @@
           <div id="user-experience-icon" class="services-icon"></div>
           <p class="services-card-title">User Experience Design</p>
           <p class="services-card-text">
-            Circle always focuses on delivering the best user experience
-            to your customers.
+            Circle always focuses on delivering the best user experience to your
+            customers.
           </p>
           <a class="services-link" href="#">Learn more</a>
         </div>
@@ -167,8 +170,8 @@
           <div id="application-development-icon" class="services-icon"></div>
           <p class="services-card-title">Application Development</p>
           <p class="services-card-text">
-            We develop high-quality mobile and web applications using
-            the latest technology stack.
+            We develop high-quality mobile and web applications using the latest
+            technology stack.
           </p>
           <a class="services-link" href="#">Learn more</a>
         </div>
@@ -182,12 +185,14 @@
         <form id="suscription">
           <input
             type="text"
-            id="email-one"
+            id="emailOne"
             name="email"
-            placeholder="Enter your email" required
+            placeholder="Enter your email"
+            onkeyup="suscription()"
+            required
           />
-          <br class="form-line">
-          <input id="suscribe-button" type="submit" value="Suscribe" />
+          <br class="form-line" />
+          <input id="suscribeButton" type="submit" value="Suscribe" />
         </form>
       </div>
     </div>
